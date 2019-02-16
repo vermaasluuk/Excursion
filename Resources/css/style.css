@@ -1,12 +1,22 @@
 html {
   background-color: black;
+  font-family: verdana, sans-serif;
 }
 
 h1 {
-  font-family: verdana, sans-serif;
-  font-weight: normal;
   font-size: 50px;
   color: white;
+}
+
+h2 {
+  font-size: 42px;
+  color: white;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 300;
+  color: gray;
 }
 
 a {
@@ -14,6 +24,11 @@ a {
   font-size: 16px;
 }
 
-.header {
+.container {
   text-align: center;
+}
+
+footer p {
+  text-align: right;
+  color: gray;
 }
